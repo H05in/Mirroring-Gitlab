@@ -13,10 +13,13 @@
 2. 문화: 영화관입장권통합전산망(https://www.kobis.or.kr/kobis/business/main/main.do), 공연예술통합전산망(https://www.kopis.or.kr/por/main/main.do)
 3. 생활: 네이버데이터랩(https://datalab.naver.com/)
 4. 교통: 서울열린테이터광장(https://data.seoul.go.kr/index.do), 공공데이터포털(https://www.data.go.kr/)
-- 기술 스택 (python, pandas, jupyter, javascript 등)
-1. 팀원들과 회의중 
-- 사용된 라이브러리 (numpy, matplotlib, wordcloud 등)
-1. 팀원들과 회의중
+- 기술 스택과 사용된 라이브러리
+
+| 파트 | 기술스택 | 라이브러리 |
+| ------ | ------ | ------ |
+| 프론트엔드 | HTML, CSS, JavaScript, React | React vis, React ApexChart |
+| 백엔드 | python(library를 활용한 데이터 추출및 가공, 서버 & DB연결), AWS(RDS를 활용한 DB구축), Docker, SQL(datagrip IDE를 사용하여 DB관리)  | Flask(서버연결), sqlalchemy(DB Modeling 작업) |
+| 데이터분석 | python | numpy, pandas, sklearn.linear_model, mpl_toolkits.mplot3d, statsmodels.api, seaborn, statsmodels.formula.api(회귀분석, 다중회귀분석 및 그래프 작성) |
 - 웹서비스에 대한 자세한 개요                      
   소비, 문화, 생활, 교통 분야에 대한 데이터를 종합하여 시각화하고, 유의미한 정보로써 제공한다.
 ## 2. 프로젝트 목표
